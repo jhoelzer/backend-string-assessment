@@ -56,7 +56,7 @@ def front_back(a, b):
     if len(a) % 2 == 1:
         a_mid = a_mid + 1
     if len(b) % 2 == 1:
-        b-mid = b-mid + 1
+        b_mid = b-_mid + 1
     return a[:a_mid] + b[:b_mid] + a[a_mid:] + b[b_mid:]
 
 
